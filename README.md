@@ -1,6 +1,3 @@
-# pmrb-trading-bot
-Automated SPY trading bot in Python: pre-market range breakout on 5-minute candles with 1:3 risk/reward, Alpaca API, and a 4-year backtester.
-
 # Pre-Market Range Breakout (PMRB) Trading Bot
 
 An automated intraday trading bot for SPY, written in Python, that trades breakouts of the pre-market
@@ -39,10 +36,8 @@ stop it disappears, and drawdowns of 20% or more (risking 0.5% per trade) occurr
 
 | File | What it is |
 |---|---|
-| `alpaca_breakout_bot.py` | The breakout bot: live/paper trading, backtest, replay |
-| `alpaca_rsi_bot.py` | An earlier RSI(14) 30/70 mean-reversion bot for AAPL (its Alpaca code is reused by the breakout bot) |
-| `rsi_strategy.py`, `compare_rsi.py` | RSI strategy backtests |
-| `range_filter.py`, `backtest_1m.py` | Python port of the Range Filter [DW] indicator (MPL-2.0, by DonovanWall) and its backtest |
+| `alpaca_breakout_bot.py` | The whole bot in one file: live/paper trading, backtest, replay |
+| `alpaca.env.example` | Template for your Alpaca API keys |
 
 ## Setup
 
